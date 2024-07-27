@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Log in to Fashionova.com | Lootlo Sub Kuch</title>
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="logo">
+            <img src="/logo.png" alt="">
+        </div>
+        <div class="form">
+            <div class=" log" id="log">
+                <h1>Login and Start Shop</h1>
+                <input type="email" name="" value="raomoez69@gmail.com" placeholder="Enter your Mail Here" id="Email">
+                <input type="password" name="" value="helloguys" id="password" placeholder="Password">
+                <button class="btn" onclick="checkName()">Login &#8594;</button>
+                <span class="btn" id="sibtn" onclick="signin()" style="font-size:16px;">Donot have Account</span>
+            </div>
+            <div class=" sign active" id="sign">
+                <h1>Sign in and Start Shop</h1>
+                <input type="text" name="" value="Abdul Moiz" id="name" placeholder="Name">
+                <input type="text" name="" value="raomoez69@gmail.com" placeholder="Enter your Mail Here" id="Email">
+                <input type="password" value="helloguys" name="" id="password" placeholder="Psassword">
+                <button class="btn" onclick="checkName()">Sign in &#8594;</button>
+                <span class="btn" id="lobtn" onclick="login()" style="font-size:16px;">Already have Account</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var log= document.getElementById("log")
+    var sign = document.getElementById("sign")
+    var btFsign = document.getElementById("sibtn")
+    var btFlog = document.getElementById("lobtn")
+    function login(){
+        sign.classList.toggle("active")
+        log.classList.toggle("active")
+    }
+    function signin(){
+        sign.classList.toggle("active")
+        log.classList.toggle("active")
+    }
+    var name = document.getElementById("Emial")
+    namebal = name.value
+    function checkName(){
+             location.href = "/index.html"
+    }
+</script>
+
+
+</html>

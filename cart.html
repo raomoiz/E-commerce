@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fashionova.com | Lootlo Sub Kuch</title>
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <div class="logo">
+                    <img src="/logo.png" alt="" width="125px">
+                </div>
+                <div class="ul active" id="menu">
+                    <ul>
+                        <li><a href="/Index.html">Home</a></li>
+                        <li><a href="/product.html">Products</a></li>
+                        
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/login.html">Account</a></li>
+                        <li><a href="/cart.html"> <i class="fas fa-cart-arrow-down"></i></a></li>
+                    </ul>
+
+                </div>
+                <img class="hum" src="/menu.png" onclick="menotoggle()" alt="">
+            </nav>
+        </div>
+    </div>
+        <div class="smallcontainer cart-table">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quality</th>
+                    <th>Sub Total</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="info">
+                            <img src="/featured1.jpg" alt="" width="50px">
+                            <div>
+                                <h3>Red T Shirt</h3>
+                                <h4>$500</h4>
+                                <p>Remove</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" name="" value="1" id="">
+                    </td>
+                    <td>$500.0</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="info">
+                            <img src="/featured1.jpg" alt="" width="50px">
+                            <div>
+                                <h3>Red T Shirt</h3>
+                                <h4>$500</h4>
+                                <p id="removeBtn" >Remove</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" name="" value="1" id="">
+                    </td>
+                    <td>$500.0</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="info">
+                            <img src="/featured1.jpg" alt="" width="50px">
+                            <div>
+                                <h3>Red T Shirt</h3>
+                                <h4>$500</h4>
+                                <p>Remove</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" name="" value="1" id="">
+                    </td>
+                    <td>$500.0</td>
+                </tr>
+            </table>
+            <div class="total">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$500</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+
+        <footer>
+            <div class="one">
+                <div class="text">
+                <h2>Download Our App</h2>
+                <h4>Avaliable At</h4>
+            </div>
+            <div class="img">
+                <img src="/Apple Store.png" alt="">
+                <img src="/PlayStore.png" alt="">
+            </div>
+            <div class="text">
+                <h2>Or visit Our Site</h2>
+                <h4>Fashionova.com</h4>
+                <p>Kiu ka Loot lo Sub Kuch 😉</p>
+            </div>
+            </div>
+            <div class="two">
+                <div class="text">
+                <h2>For Updates And Deals</h2>
+                <h4>Follow as on</h4>
+            </div>
+            <div class="follw">
+                <i class="fab fa-twitter twiter"></i><p>@Fashionova</p>
+            </div>
+            <div class="follw">
+                <i class="fab fa-instagram-square insta"></i><p>@Fashionova_Insta</p>
+            </div>
+          
+            </div>
+        </footer>
+</body>
+<script src="/uni.js"></script>
+<script src="https://kit.fontawesome.com/2d4584c009.js" crossorigin="anonymous"></script>
+<script>
+    var menu = document.getElementById("menu")
+    function menotoggle() {
+        menu.classList.toggle("active")
+    }
+</script>
+
+</html>

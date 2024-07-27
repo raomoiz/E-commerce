@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fashionova.com | Lootlo Sub Kuch</title>
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+<body>
+<div class="form-page">
+    <div class="container">
+        <div class="header">
+            <nav>
+                <div class="logo">
+                    <img src="/logo.png" alt="" width="125px">
+                </div>
+                <div class="ul active" id="menu">
+                    <ul>
+                        <li><a href="/Index.html">Home</a></li>
+                        <li><a href="/product.html">Products</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/login.html">Account</a></li>
+                        <li><a href="/cart.html"> <i class="fas fa-cart-arrow-down"></i></a></li>
+                    </ul>
+
+                </div>
+                <img class="hum" src="/menu.png" onclick="menotoggle()" alt="">
+            </nav>
+        </div>
+    </div>
+ <div class="form">
+    <form action="">
+        <input type="text" name="" id="" placeholder="Enter Your Name">
+        <input type="email" name="" id="" placeholder="Enter Your Email">
+        <textarea name="" placeholder="Description "></textarea>
+        <button class="btn">Submit</button>
+
+    </form>
+ </div>
+
+</div>
+
+    <footer>
+        <footer>
+            <div class="one">
+                <div class="text">
+                <h2>Download Our App</h2>
+                <h4>Avaliable At</h4>
+            </div>
+            <div class="img">
+                <img src="/Apple Store.png" alt="">
+                <img src="/PlayStore.png" alt="">
+            </div>
+            <div class="text">
+                <h2>Or visit Our Site</h2>
+                <h4>Fashionova.com</h4>
+                <p>Kiu ka Loot lo Sub Kuch 😉</p>
+            </div>
+            </div>
+            <div class="two">
+                <div class="text">
+                <h2>For Updates And Deals</h2>
+                <h4>Follow as on</h4>
+            </div>
+            <div class="follw">
+                <i class="fab fa-twitter twiter"></i><p>@Fashionova</p>
+            </div>
+            <div class="follw">
+                <i class="fab fa-instagram-square insta"></i><p>@Fashionova_Insta</p>
+            </div>
+          
+            </div>
+        </footer>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/2d4584c009.js" crossorigin="anonymous"></script>
+<script>
+    var menu = document.getElementById("menu")
+    function menotoggle() {
+        menu.classList.toggle("active")
+    }
+</script>
+
+</html>
